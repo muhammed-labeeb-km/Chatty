@@ -1,0 +1,48 @@
+.sent {
+    text-align: right;
+  }
+  
+  .received {
+    text-align: left;
+    color: lightpink;
+
+  }
+  
+  
+  .chat-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .chat-container p {
+    margin: 10px;
+  }
+  
+  .chat-container span {
+    display: block;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+  }
+  
+  .sent span {
+    background-color: lightblue;
+  }
+  
+  .received span {
+    background-color: lightpink;
+  }
+  
+  
+  
+  
+  .fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+  }
+  
